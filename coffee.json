@@ -1,0 +1,133 @@
+{
+  "coffee": [
+    {
+      "id": 0,
+      "name": "Эспрессо",
+      "category": "Классический",
+      "description": "Крепкий, насыщенный кофе с плотной кремовой пенкой.",
+      "img": "https://files.oaiusercontent.com/file-PFKvkySpMhPWqEosWwwtzP?se=2025-02-20T12%3A12%3A51Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D032b0ac1-bb46-4b3a-9bf0-c718307e1b5e.webp&sig=VOZfDeFnlydkx5U3/Sks2UG1qLAg142dGq4I2bSPkfE%3D",
+      "price": 1550
+    },
+    {
+      "id": 1,
+      "name": "Американо",
+      "category": "Классический",
+      "description": "Эспрессо, разбавленный горячей водой, мягкий вкус.",
+      "img": "https://files.oaiusercontent.com/file-JJeH5Xb6SKzouddeUdrf7Y?se=2025-02-20T12%3A21%3A03Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D096fbeb4-d2ed-4eb9-b988-05115be669f2.webp&sig=LOsrA5KO/YiCErOJb/JGVu2vd8Yi2LJzCWJF2AIUS5g%3D",
+      "price": 2200
+    },
+
+    {
+      "id": 2,
+      "name": "Ристретто",
+      "category": "Классический",
+      "description": "Очень крепкий и концентрированный эспрессо.",
+      "img": "https://files.oaiusercontent.com/file-A7nUhuf6u99XLLWibHSbSC?se=2025-02-20T12%3A22%3A05Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Da48c037e-a6eb-4e21-b911-2ad358d5b98e.webp&sig=GHwC80wxD6I%2BOGuLfP%2Ba2m//u7I0JzVWibMNbTUfYBI%3D",
+      "price": 2900
+    },
+    {
+      "id": 3,
+      "name": "Лунго",
+      "category": "Классический",
+      "description": "Эспрессо с увеличенным объемом воды, менее крепкий.",
+      "img": "https://files.oaiusercontent.com/file-7vC31CDBdS6y93n4x1Qq3c?se=2025-02-20T12%3A25%3A51Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1a2ef1e0-025d-430b-a3c9-ce19407f62e0.webp&sig=fpFvxW7jQmpQ2er2F8UGkqqF0AD/WfqRw4IhFJkqp2k%3D",
+      "price": 2100
+    },
+    {
+      "id": 4,
+      "name": "Капучино",
+      "category": "С молоком",
+      "description": "Эспрессо с молоком и пышной молочной пеной.",
+      "img": "https://files.oaiusercontent.com/file-6tQG6PqC7WcJNoWxkxyzBf?se=2025-02-20T12%3A26%3A44Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dee63fdc3-7664-41de-8dce-fa787b5f9f2c.webp&sig=hTKYrqCNNTCDQQLs7AoSTux17HUMSY8iGMbBnWKydeg%3D",
+      "price": 1600
+    },
+    {
+      "id": 5,
+      "name": "Латте",
+      "category": "С молоком",
+      "description": "Эспрессо с большим количеством молока и пеной.",
+      "img": "https://files.oaiusercontent.com/file-HdomDzkC8qWvMv69VD94qU?se=2025-02-20T12%3A27%3A31Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dfe4073e6-88a8-4d71-9a2f-4110b9e81637.webp&sig=zYJ%2Bt/0HjrbXXLZTdCmztImunjzOaTG2tf3QAenn1mc%3D",
+      "price": 1500
+    },
+    {
+      "id": 6,
+      "name": "Флэт уайт",
+      "category": "С молоком",
+      "description": "Похож на латте, но более насыщенный кофейный вкус.",
+      "img": "https://files.oaiusercontent.com/file-D1JRsgR7cYqwwQ8A1DBNmm?se=2025-02-20T12%3A29%3A06Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D8301cf04-580c-47c0-b296-ede830e77d8a.webp&sig=7Ytib8hbfeumc5FoGLD2R27H3%2Bb3lSAWGj5tJVL4BXU%3D",
+      "price": 2800
+    },
+    {
+      "id": 7,
+      "name": "Мокачино",
+      "category": "С молоком",
+      "description": "Латте с добавлением шоколада или какао.",
+      "img": "https://files.oaiusercontent.com/file-3meNvWxTRtwGFP8TjrxXkS?se=2025-02-20T12%3A29%3A45Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D4d88a82e-933e-4f01-b802-74c3217fa73f.webp&sig=yvnp59hpNO9h1Hl4RUFFyeIq/eQIbFVR3I0TTpirY/4%3D",
+      "price": 3200
+    },
+    {
+      "id": 8,
+      "name": "Латте макиато",
+      "category": "С молоком",
+      "description": "Слоистый напиток с молоком, пеной и эспрессо.",
+      "img": "https://files.oaiusercontent.com/file-8J5UAUZeXLcfDfXPUbfbEW?se=2025-02-20T12%3A30%3A49Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df81bd3b9-9b10-4884-9d60-b64de143ce0c.webp&sig=UEGUwiX6MW%2B5pktI7lBJWPeo1cI1B4P58eTz4XEH3ys%3D",
+      "price": 1650
+    },
+    {
+      "id": 9,
+      "name": "Айс-латте",
+      "category": "Холодный кофе",
+      "description": "Охлажденный латте со льдом, освежающий и нежный.",
+      "img": "https://files.oaiusercontent.com/file-6k59y4MLemv63ptKThDri4?se=2025-02-20T12%3A31%3A56Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df5db25aa-b6b9-48ed-aa71-38d0f624bd6b.webp&sig=XFbxlvgnFCsxYmbjmgancyElTUoAkXmryba2JJg89mM%3D",
+      "price": 1750
+    },
+    {
+      "id": 10,
+      "name": "Айс-американо",
+      "category": "Холодный кофе",
+      "description": "Американо, приготовленный со льдом, легкий и бодрящий.",
+      "img": "https://files.oaiusercontent.com/file-DRz2JLuW3mdcGUwRCx32xo?se=2025-02-20T12%3A32%3A41Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D195a3fe1-7c43-4fd8-abfc-5775ac083408.webp&sig=cudhhKUcuIB4zgnGBCrR3GqKvZoZ8Tf/F3tlnseQBB0%3D",
+      "price": 1950
+    },
+    {
+      "id": 11,
+      "name": "Фраппе",
+      "category": "Холодный кофе",
+      "description": "Взбитый кофе с молоком и льдом, приятная текстура.",
+      "img": "https://files.oaiusercontent.com/file-NZ72qbT8KHeEMFTkE6y6e4?se=2025-02-20T12%3A33%3A51Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dfcf9eae3-4454-4044-9cb4-16ad7af7118c.webp&sig=knYsWXFADMloE%2BTH1WVqPgTenPZq/8AidN/7/g643%2Bo%3D",
+      "price": 2300
+    },
+    {
+      "id": 12,
+      "name": "Аффогато",
+      "category": "Десертный кофе",
+      "description": "Шарик мороженого, залитый горячим эспрессо.",
+      "img": "https://files.oaiusercontent.com/file-T1SC3UCmBQbfVqbkp1jqjh?se=2025-02-20T12%3A34%3A43Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db5d0df67-83d3-48f9-8108-0ff596a00261.webp&sig=kTvGHeM0de6fz63Q9/UJoFsThKVcyOlZxcOsbhBwOyY%3D",
+      "price": 2950
+    },
+    {
+      "id": 13,
+      "name": "Ирландский кофе",
+      "category": "Кофе с алкоголем",
+      "description": "Кофе с виски, сахаром и взбитыми сливками.",
+      "img": "https://files.oaiusercontent.com/file-Kcy7S5ELdbAwMWQB591Sea?se=2025-02-20T12%3A35%3A32Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D05d21804-3282-46c9-84f0-6682f0caf3c7.webp&sig=5nh7y8VpcRqIcQfIqV5eEbxzOHcA6E7BXrRz6JrEtCg%3D",
+      "price": 3550
+    },
+    {
+      "id": 14,
+      "name": "Корретто",
+      "category": "Кофе с алкоголем",
+      "description": "Эспрессо с добавлением граппы или коньяка.",
+      "img": "https://files.oaiusercontent.com/file-TVDxXThtHxLMyaWBuQCdqL?se=2025-02-20T12%3A36%3A19Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0850373f-abfc-4257-b0b4-80c94a5313eb.webp&sig=khrZNV1%2BQ3PaAkZkHvHc5%2B0h6NQo%2BDkZg1DkUDl7GyY%3D",
+      "price": 3200
+    },
+    {
+      "id": 15,
+      "name": "Турецкий кофе",
+      "category": "Традиционный",
+      "description": "Кофе, сваренный в джезве с густым осадком и специями.",
+      "img": "https://files.oaiusercontent.com/file-TVDxXThtHxLMyaWBuQCdqL?se=2025-02-20T12%3A36%3A19Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0850373f-abfc-4257-b0b4-80c94a5313eb.webp&sig=khrZNV1%2BQ3PaAkZkHvHc5%2B0h6NQo%2BDkZg1DkUDl7GyY%3D",
+      "price": 2350
+    }
+  ]
+}
