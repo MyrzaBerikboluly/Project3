@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - CoffeeLab</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png"
+    />
+</head>
+<body>
+    <div class="container">
+        <form>
+            <a href="../html/index.html" class="home"><p class="slash">/</p><p class="text">Home</p></a>
+            <h2>Register</h2>
+            <div class="container-email">
+                <label for="email" id="label">Enter your email</label>
+                <input type="email" id="email" required>
+                <img src="../assets/email.svg" alt="">
+            </div>
+            
+            <div class="container-phone">
+                <label for="phone" id="label2">Enter your phone</label>
+                <input type="number" id="phone" required>
+                <img src="../assets/phone.svg" alt="">
+            </div>
+            <div class="container-password">
+                <label for="password" id="label3">Enter your password</label>
+                <input type="password" id="password" required>
+                <img src="../assets/password.svg" alt="">
+            </div>
+            <div class="container-confirm-password">
+                <label for="confirm" id="label4">Confirm your password</label>    
+                <input type="password" id="confirm" required>
+                <img src="../assets/password.svg" alt="">
+            </div>
+            <button type="submit">Register</button>
+            <div class="login">
+                <p>Already have an account?<a href="../html/login.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>

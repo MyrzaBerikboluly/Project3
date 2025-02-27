@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images6.alphacoders.com/129/1291821.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+form h2 {
+    margin-bottom: 45px;
+}
+
+.container {
+    padding: 30px 20px 20px 20px;
+    border: 2px solid rgb(188, 185, 185);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    text-align: center;
+    height: 460px;
+    width: 420px;
+    color: white;
+    font-size: 18px;
+}
+
+.container-email input {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    padding-left: 3px;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.container-email img {
+    position: absolute;
+    width: 25px;
+    bottom: 382px;
+    right: 25px;
+}
+
+.container-email label {
+    position: absolute;
+    top: 103px;
+    left: 22px;
+    transition: .5s;
+}
+
+.container-email:hover label {
+    transform: translateY(-20px);
+}
+
+.container-phone input {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    padding-left: 3px;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.container-phone img {
+    position: absolute;
+    width: 25px;
+    right: 20px;
+    bottom: 305px;
+}
+
+.container-phone label {
+    position: absolute;
+    top: 180px;
+    left: 22px;
+    transition: .5s;
+}
+
+.container-phone:hover label {
+    transform: translateY(-20px);
+}
+
+.container-password input {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    padding-left: 3px;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.container-password img {
+    width: 25px;
+    position: absolute;
+    bottom: 232px;
+    right: 22px;
+}
+
+.container-password label {
+    position: absolute;
+    top: 259px;
+    left: 22px;
+    transition: .5s;
+}
+
+.container-password:hover label {
+    transform: translateY(-20px);
+}
+
+.container-confirm-password input {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    padding-left: 3px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.container-confirm-password img {
+    position: absolute;
+    bottom: 155px;
+    width: 25px;
+    right: 22px;
+}
+
+.container-confirm-password label {
+    position: absolute;
+    top: 337px;
+    left: 22px;
+    transition: .5s;
+}
+
+.container-confirm-password:hover label {
+    transform: translateY(-20px);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 22px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    transition: .7s;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+.login {
+    font-size: 16px;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.home .text {
+    color: rgb(198, 198, 198);
+    text-decoration: none;
+    position: absolute;
+    right: 32px;
+    top: 40px;
+    font-size: 13px;
+}
+
+.home .text:hover {
+    text-decoration: underline;
+}
+
+.slash {
+    position: absolute;
+    right: 75px;
+    top: 40px;
+    color: rgb(198, 198, 198);
+    font-size: 13px;
+}

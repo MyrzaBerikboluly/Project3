@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.alphacoders.com/129/1290988.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    padding: 30px 20px 20px 20px;
+    border: 2px solid rgb(188, 185, 185);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    text-align: center;
+    height: 390px;
+    width: 380px;
+    color: white;
+    font-size: 18px;
+}
+
+.container-email input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    padding-left: 3px;
+    position: relative;
+}
+
+.container-email img {
+    position: absolute;
+    width: 26px;
+    right: 22px;
+    bottom: 306px;
+}
+
+.container-email label {
+    position: absolute;
+    left: 22px;
+    top: 108px;
+    transition: .5s;
+}
+
+.container-password input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    padding-left: 3px;
+    position: relative;
+}
+
+.container-password img {
+    position: absolute;
+    width: 23px;
+    right: 22px;
+    bottom: 228px;
+}
+
+.container-password label {
+    position: absolute;
+    left: 22px;
+    top: 191px;
+    transition: .5s;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.remember-checkbox p {
+    margin-left: 4px;
+}
+
+.name {
+    margin-bottom: 50px;
+}
+
+button {
+    margin-bottom: 35px;
+    padding: 9px;
+    background-color: black;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: none;
+    transition: .7s;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+.register {
+    font-size: 15px;
+}
+
+.register a {
+    color: white;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+.home .text {
+    color: rgb(198, 198, 198);
+    text-decoration: none;
+    position: absolute;
+    right: 32px;
+    top: 40px;
+    font-size: 13px;
+}
+
+.home .text:hover {
+    text-decoration: underline;
+}
+
+.slash {
+    position: absolute;
+    right: 75px;
+    top: 40px;
+    color: rgb(198, 198, 198);
+    font-size: 13px;
+}
